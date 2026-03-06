@@ -1,1 +1,44 @@
+# 🎬 Secuencia 01: El Estudio de Radio (Estilo 1-Bit Pixel Art)
 
+**Descripción General:** Secuencia continua donde un locutor de radio lee noticias. El reto técnico es mantener el torso del protagonista 100% congelado mientras se animan microexpresiones faciales y el fondo mantiene una actividad fluida.
+**Resolución:** 16:9 cinematic
+**Estilo Base:** 1-bit pixel art, retro arcade, CRT monitor texture, heavy scanlines, dithering.
+
+---
+
+## 🎞️ Toma 1: Lectura y mirada intensa a cámara
+**Rango de tiempo:** 0.00s - 2.70s 
+**Frames:** 00 al 65
+**Acción principal:** El presentador lee, levanta la vista fijamente a cámara y vuelve a bajar la mirada apretando los labios. El extra del fondo se levanta.
+
+### 🟢 Positive Prompt
+> "Medium shot (16:9) cinematic sequence rendered in a highly detailed 1-bit pixel art style, characterized by retro arcade graphics, a high-contrast pure black and white palette, and thick pixelated outlines. In a retro radio studio, a man wearing thick glasses, a white shirt, and a dark tie sits wearing headphones. **His body is completely frozen from the neck down: his torso, shoulders, and arms remain rigidly motionless like a pixelated statue, with a total absence of any other body movement.** All animation is strictly confined to fluid, detailed facial and head biomechanics: Initially, his head is tilted slightly down, and his lips move with natural, detailed pixelated articulation as he reads an invisible script. He lowers his gaze further, then abruptly executes a sharp, sudden upward head jerk, locking an intense, serious, wide-eyed stare directly into the camera lens through his thick frames. He holds this stare for a precise, meaningful fraction of a second. Subsequently, he subtly drops his chin, pressing his lips firmly together to form a tense, defined pixel line, before lowering his gaze again. In the background on the right, maintaining spatial logic and depth of field, two people are working at a desk; one figure, also wearing headphones, stands up with a distinct, fluid motion. Natural cinematic lighting is translated through heavy dithering and crisp pixel gradations. The final aesthetic is defined by dense scanlines and a flickering CRT monitor texture typical of 1980s hardware, visually translating the scene's tension and the ambient hum of the studio."
+
+### 🔴 Negative Prompt
+> body movement, swaying, breathing motion, shoulder shrugging, torso twisting, arm movement, fidgeting, realistic style, 3D rendering, modern video, smooth gradients, soft lighting, anti-aliasing, extra colors, shades of gray, text, watermarks.
+
+---
+
+## 🎞️ Toma 2: Aparición de Rótulo y Teléfono de fondo
+**Rango de tiempo:** 2.70s - 5.40s 
+**Frames:** 65 al 129
+**Acción principal:** Lectura continua. Aparece el texto "YOUNGSTOWN / TOWNSHIP MUNICIPAL HOSPITAL". El hombre del fondo a la izquierda habla por teléfono.
+
+### 🟢 Positive Prompt
+> [Pegar aquí el prompt en inglés correspondiente a esta toma]
+
+### 🔴 Negative Prompt (¡Atención: 'text' permitido!)
+> body movement, swaying, breathing motion, shoulder shrugging, torso twisting, arm movement, fidgeting, realistic style, 3D rendering, modern video, smooth gradients, soft lighting, anti-aliasing, extra colors, shades of gray, watermarks.
+
+---
+
+## 🎞️ Toma 3: Cambio de Rótulo en Directo
+**Rango de tiempo:** 5.40s - 8.10s
+**Frames:** 129 al 194
+**Acción principal:** El texto cambia abruptamente a "SHARON / CENTRAL FIRE DEPARTMENT".
+
+### 🟢 Positive Prompt
+> [Pegar aquí el prompt en inglés de la transición de texto]
+
+### 🔴 Negative Prompt 
+> [Pegar aquí el negativo]
