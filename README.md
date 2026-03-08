@@ -13,10 +13,10 @@ Usa [ComfyUI](https://github.com/comfyanonymous/ComfyUI), el modelo de código a
 
 Para mantener la producción ordenada, el proyecto se divide en los siguientes departamentos:
 
-* **`📁 01_guiones_tecnicos/`**: Desgloses de producción. Aquí encontrarás documentos detallados fotograma a fotograma (tiempos, acciones, recortes) para replicar la sincronización exacta de cada toma.
-* **`📁 02_flujos_comfyui/`**: El cerebro de la operación. Archivos `.json` listos para arrastrar y soltar en ComfyUI, incluyendo flujos avanzados de multi-prompting y anclaje de imágenes guía (`LTXVAddGuide`).
-* **`📁 03_prompts_y_textos/`**: El departamento de guion. Colección de *prompts* positivos y nuestros escudos de *prompts* negativos (diseñados específicamente para bloquear el suavizado y proteger la estética de 1-bit).
-* **`📁 04_recursos_visuales/`**: La sala de montaje. Contiene los fotogramas extraídos de las generaciones (`pixelart_clip_frames`) listos para ser ensamblados, además de recursos gráficos adicionales como marcos de máquinas arcade.
+* **`📁 guiones_tecnicos/`**: Desgloses de producción. Aquí encontrarás documentos detallados fotograma a fotograma (tiempos, acciones, recortes) para replicar la sincronización exacta de cada toma.
+* **`📁 flujos_comfyui/`**: El cerebro de la operación. Archivos `.json` listos para arrastrar y soltar en ComfyUI, incluyendo flujos avanzados de multi-prompting y anclaje de imágenes guía (`LTXVAddGuide`).
+* **`📁 prompts_y_textos/`**: El departamento de guion. Colección de *prompts* positivos y nuestros escudos de *prompts* negativos (diseñados específicamente para bloquear el suavizado y proteger la estética de 1-bit).
+* **`📁 recursos_visuales/`**: La sala de montaje. Contiene los fotogramas extraídos de las generaciones (`pixelart_clip_frames`) listos para ser ensamblados, además de recursos gráficos adicionales como marcos de máquinas arcade.
 
 ---
 
