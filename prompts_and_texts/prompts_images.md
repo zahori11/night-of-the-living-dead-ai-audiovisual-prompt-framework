@@ -1,6 +1,6 @@
 # 🖼️ Cuaderno de Arte: Estilización y Assets Gráficos
 
-Este documento detalla el flujo de trabajo de preproducción utilizado para generar los fotogramas clave y los elementos escenográficos (como el televisor retro), combinando herramientas externas antes de entrar a la fase de animación y empalme.
+Este documento detalla el flujo de trabajo de preproducción utilizado para generar los fotogramas clave y los elementos escenográficos (como la consola arcade), combinando herramientas externas antes de entrar a la fase de animación y empalme.
 
 ---
 
