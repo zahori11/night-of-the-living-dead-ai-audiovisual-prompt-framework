@@ -234,7 +234,7 @@ Technical Notes:
 🎞️ Shot 23: Final Comms
 Time: 44.00s - 46.00s
 Frames: 1760 - 1840
-Main Action: Operator Sharon looks directly into the camera stating, "Units are en route." He immediately lowers his eyes toward the desk, subtly tucking his chin while the static fire department banner remains anchored.
+Main Action: Operator Sharon looks directly into the camera stating, He immediately lowers his eyes toward the desk, subtly tucking his chin while the static fire department banner remains anchored.
 Technical Notes:
 * Anchor (Inplace): Frame 1760.
 * frame_load_cap: 81
