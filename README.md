@@ -42,13 +42,31 @@ The editing room. Contains frames extracted from the generations (**pixelart_cli
 
 For the workflows in `02_comfyui_workflows/` to run without errors (red nodes), you must install the following packages via **ComfyUI-Manager**:
 
-| Node / Package | Use in This Project |
-|---|---|
-| **ComfyUI-VideoHelperSuite** | Loading the original video, FPS control (`force_rate`), and saving results |
-| **ComfyUI-LTXTricks** | LTX-2 implementation, guide nodes (`LTXVAddGuide`), and tiled decoding |
-| **ComfyUI-Essentials** | Image operations such as `nearest-exact` scaling and center cropping |
-| **ComfyUI-Audio** | Precise trimming and synchronization of scene audio (Shot 1 and Shot 2) |
-| **ComfyUI-Custom-Scripts** | Interface improvements and KSampler node organization |
+Aquí tienes la **traducción al inglés en formato cuadrícula (tabla limpia para LinkedIn, Notion o GitHub):**
+
+---
+
+### ⚙️ ComfyUI Pipeline Breakdown
+
+| Node / Component           | Function in This Project                                                                                 |
+| -------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Load Image                 | Uploads static images (start, middle, end) from your computer into the program.                          |
+| Load VHS Video             | Loads the original video file to read its frames or extract its audio track.                             |
+| Load Audio                 | Loads a separate audio file to integrate into the final output.                                          |
+| Image Scale / Scale By     | Adjusts the exact dimensions of the image (e.g. 768x512 pixels) so all assets share the same resolution. |
+| Resizable Image Mask Node  | Adjusts the size of selection areas (masks) so they match the resized images.                            |
+| Image to Mask              | Defines a specific area of the image, indicating what can be animated and what must remain static.       |
+| Feather Mask               | Softens mask edges to avoid harsh cuts and create smooth pixel transitions.                              |
+| UnetLoaderGGUF             | Loads the main video generation model (LTX-2), which computes and generates the animation.               |
+| DualCLIPLoaderGGUF           | Loads the language model that converts text prompts into processable mathematical data.                  |
+| VAELoader                  | Encodes and decodes between latent space and pixel space                  |
+| CLIPTextEncode             | Receives text prompts defining what the model should generate (positive) or avoid (negative).            |
+| KSampler                   | Executes diffusion steps and controls the sampler and scheduler                        |
+| LTXVImgToVideoInplace      | Extends a static image and converts it into a continuous sequence of frames.                             |
+| LTXVAddGuide         | Injects reference data to maintain visual and lighting consistency across frames.                        |
+| VAEDecodeTiled / VAEDecode | Converts generated latent data back into visible pixel-based images.                                     |
+| VHS_VideoCombine           | Combines all frames, syncs them with audio, and exports the final video file (.mp4).                     |
+
 
 **Director’s Note:**  
 If nodes are missing when loading the workflow, use **“Install Missing Custom Nodes”** in your Manager and search for the names listed in the table above.
