@@ -69,6 +69,8 @@ Aquí tienes la **traducción al inglés en formato cuadrícula (tabla limpia pa
 
 <img width="1704" height="905" alt="image" src="https://github.com/user-attachments/assets/91258e34-9eee-4e5e-89aa-4a4aa7d09d98" />
 
+<img width="1628" height="879" alt="image" src="https://github.com/user-attachments/assets/363fb54f-bea8-45df-999b-4a84dc2cbd5b" />
+
 <img width="1700" height="406" alt="image" src="https://github.com/user-attachments/assets/728e7dfe-b456-4014-a01d-e71bad7bed0b" />
 
 <img width="1364" height="918" alt="image" src="https://github.com/user-attachments/assets/f1e51bac-8460-4db6-acb8-9b5176d65348" />
